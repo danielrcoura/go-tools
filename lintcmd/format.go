@@ -189,7 +189,8 @@ func (o *sarifFormatter) Start(checks []*lint.Analyzer) {
 	}
 	for _, c := range checks {
 		rd := sarif.ReportingDescriptor{
-			ID: c.Analyzer.Name,
+			ID:   c.Analyzer.Name,
+			Name: c.Analyzer.Name,
 			// We use our markdown as the plain text version, too. We
 			// use very little markdown, primarily quotations,
 			// indented code blocks and backticks. All of these are
@@ -274,6 +275,8 @@ func (o *sarifFormatter) Format(p problem) {
 	// is only accessible via the code scanning alerts, which are only
 	// accessible by users with write permissions.
 	//
+	// Result.Suppressions is being ignored.
+	//
 	//
 	// Notes on other tools
 	//
@@ -295,6 +298,15 @@ func (o *sarifFormatter) Format(p problem) {
 	// because the fullDescription isn't meant to be that long. For
 	// example, GitHub displays it in a single line, under the
 	// shortDescription.
+	//
+	// VS Code can filter based on Result.Suppressions, but it doesn't
+	// display our suppression message. Also, by default, suppressed
+	// results get shown, and the column indicating that a result is
+	// suppressed is hidden, which makes for a confusing experience.
+	//
+	// When a rule has only an ID, no name, VS Code displays a
+	// prominent dash in place of the name. When the name and ID are
+	// identical, it prints both.
 
 	r := sarif.Result{
 		RuleID:  p.Category,
