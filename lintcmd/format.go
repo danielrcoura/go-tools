@@ -370,11 +370,16 @@ func (o *sarifFormatter) Format(p problem) {
 	}
 
 	if p.Severity == severityIgnored {
-		r.Suppressions = append(r.Suppressions,
-			sarif.Suppression{
-				Kind:          "inSource",
-				Justification: "to be filled in",
-			})
+		r.Suppressions = []sarif.Suppression{{
+			Kind:          "inSource",
+			Justification: "to be filled in",
+		}}
+	} else {
+		// We want an empty slice, not nil. SARIF differentiates
+		// between the two. An empty slice means that the problem
+		// wasn't suppressed, while nil means that we don't have the
+		// information available.
+		r.Suppressions = []sarif.Suppression{}
 	}
 	o.run.Results = append(o.run.Results, r)
 }
