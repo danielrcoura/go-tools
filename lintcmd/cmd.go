@@ -707,6 +707,9 @@ func ProcessFlagSet(cs []*lint.Analyzer, fs *flag.FlagSet) {
 		}
 		if p.Severity == severityIgnored && !showIgnored {
 			numIgnored++
+			if _, ok := f.(*sarifFormatter); ok {
+				f.Format(p)
+			}
 			continue
 		}
 		if shouldExit[p.Category] {

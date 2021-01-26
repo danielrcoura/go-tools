@@ -368,6 +368,14 @@ func (o *sarifFormatter) Format(p problem) {
 				},
 			})
 	}
+
+	if p.Severity == severityIgnored {
+		r.Suppressions = append(r.Suppressions,
+			sarif.Suppression{
+				Kind:          "inSource",
+				Justification: "to be filled in",
+			})
+	}
 	o.run.Results = append(o.run.Results, r)
 }
 

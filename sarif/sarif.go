@@ -74,13 +74,18 @@ type ReportingConfiguration struct {
 type Result struct {
 	RuleID string `json:"ruleId"`
 	// RuleIndex        int        `json:"ruleIndex"`
-	Kind             string     `json:"kind"`
-	Level            string     `json:"level"`
-	Message          Message    `json:"message"`
-	Locations        []Location `json:"locations,omitempty"`
-	RelatedLocations []Location `json:"relatedLocations,omitempty"`
-	Fixes            []Fix      `json:"fixes,omitempty"`
-	// TODO support 3.27.23 suppressions
+	Kind             string        `json:"kind"`
+	Level            string        `json:"level"`
+	Message          Message       `json:"message"`
+	Locations        []Location    `json:"locations,omitempty"`
+	RelatedLocations []Location    `json:"relatedLocations,omitempty"`
+	Fixes            []Fix         `json:"fixes,omitempty"`
+	Suppressions     []Suppression `json:"suppressions"`
+}
+
+type Suppression struct {
+	Kind          string `json:"kind"`
+	Justification string `json:"justification"`
 }
 
 type Fix struct {
