@@ -59,7 +59,6 @@ type ToolComponent struct {
 
 type ReportingDescriptor struct {
 	ID               string  `json:"id"`
-	Name             string  `json:"name,omitempty"`
 	ShortDescription Message `json:"shortDescription"`
 	// FullDescription  Message `json:"fullDescription"`
 	Help    Message `json:"help"`

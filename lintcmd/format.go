@@ -172,8 +172,11 @@ func (o *sarifFormatter) Start(checks []*lint.Analyzer) {
 	o.run = sarif.Run{
 		Tool: sarif.Tool{
 			Driver: sarif.ToolComponent{
-				Name:            "Staticcheck",
-				Version:         version.Version,
+				Name: "Staticcheck",
+				// XXX version.Version is useless when it's "devel"
+				Version: version.Version,
+				// XXX SemanticVersion is useless when it's "devel"
+				// XXX SemanticVersion shouldn't have the leading "v"
 				SemanticVersion: version.MachineVersion,
 				InformationURI:  "https://staticcheck.io",
 			},
@@ -188,25 +191,25 @@ func (o *sarifFormatter) Start(checks []*lint.Analyzer) {
 		}},
 	}
 	for _, c := range checks {
-		rd := sarif.ReportingDescriptor{
-			ID:   c.Analyzer.Name,
-			Name: c.Analyzer.Name,
-			// We use our markdown as the plain text version, too. We
-			// use very little markdown, primarily quotations,
-			// indented code blocks and backticks. All of these are
-			// fine as plain text, too.
-			ShortDescription: sarif.Message{
-				Text:     c.Doc.Title,
-				Markdown: c.Doc.Title,
-			},
-			HelpURI: "https://staticcheck.io/docs/checks#" + c.Analyzer.Name,
-			Help: sarif.Message{
-				// OPT(dh): don't compute the string multiple times
-				Text:     c.Doc.String(),
-				Markdown: c.Doc.String(),
-			},
-		}
-		o.run.Tool.Driver.Rules = append(o.run.Tool.Driver.Rules, rd)
+		o.run.Tool.Driver.Rules = append(o.run.Tool.Driver.Rules,
+			sarif.ReportingDescriptor{
+				// We don't set Name, as Name and ID mustn't be identical.
+				ID: c.Analyzer.Name,
+				ShortDescription: sarif.Message{
+					Text:     c.Doc.Title,
+					Markdown: c.Doc.Title,
+				},
+				HelpURI: "https://staticcheck.io/docs/checks#" + c.Analyzer.Name,
+				// We use our markdown as the plain text version, too. We
+				// use very little markdown, primarily quotations,
+				// indented code blocks and backticks. All of these are
+				// fine as plain text, too.
+				Help: sarif.Message{
+					// OPT(dh): don't compute the string multiple times
+					Text:     c.Doc.String(),
+					Markdown: c.Doc.String(),
+				},
+			})
 	}
 }
 
@@ -239,7 +242,6 @@ func (o *sarifFormatter) sarifLevel(p problem) string {
 }
 
 // XXX don't add "Available since" (and other metadata) to rule descriptions.
-// XXX handle ignored problems
 // XXX set properties.tags – we can use different tags for the
 //   staticcheck, simple, stylecheck and unused checks, so users can
 //   filter their results
@@ -306,7 +308,9 @@ func (o *sarifFormatter) Format(p problem) {
 	//
 	// When a rule has only an ID, no name, VS Code displays a
 	// prominent dash in place of the name. When the name and ID are
-	// identical, it prints both.
+	// identical, it prints both. However, we can't make them
+	// identical, as SARIF requires that either the ID and name are
+	// different, or that the name is omitted.
 
 	r := sarif.Result{
 		RuleID:  p.Category,
