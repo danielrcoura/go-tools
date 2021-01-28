@@ -1,0 +1,4 @@
+Native Compiler invocation: /usr/local/go/bin/go build ./...
+Working directory: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple
+Comptype: go
+* Configuring /usr/local/go/bin/go as a Go compiler

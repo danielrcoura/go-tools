@@ -1,0 +1,1654 @@
+2021-01-28T18:36:11.360412Z|cov-build|24979|info|> cov-build 2020.09 (build 3412dc3383 p-upland-push-1502)
+2021-01-28T18:36:11.360449Z|cov-build|24979|info|> Coverity Build Capture (64-bit) version 2020.09 on Linux 5.4.0-62-generic x86_64
+2021-01-28T18:36:11.360449Z|cov-build|24979|info|> Internal version numbers: 3412dc3383 p-upland-push-1502
+2021-01-28T18:36:11.360449Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360458Z|cov-build|24979|info|> Dumping from hostname : daniel-pc
+2021-01-28T18:36:11.360458Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> Platform info:
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> Sysname = Linux
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> Release = 5.4.0-62-generic
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> Machine = x86_64
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360462Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360472Z|cov-build|24979|info|> cov-build command: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-build --dir cov-int go build ./... 
+2021-01-28T18:36:11.360476Z|cov-build|24979|info|> cov-build expanded command: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-build --dir cov-int go build ./... 
+2021-01-28T18:36:11.360734Z|cov-build|24979|info|> build command: /usr/local/go/bin/go build ./...
+2021-01-28T18:36:11.360740Z|cov-build|24979|info|> thunk command: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-internal-thunk.sh go build ./...
+2021-01-28T18:36:11.360740Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360745Z|cov-build|24979|info|> Set UseSharedCompilation to false.
+2021-01-28T18:36:11.360751Z|cov-build|24979|info|> Set COVERITY_BIN to /home/daniel/Projects/cov-analysis-linux64-2020.09/bin
+2021-01-28T18:36:11.360761Z|cov-build|24979|info|> Set COVERITY_SITE_CC to Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;java;javac;javaw;kotlin;kotlinc;ld;link;msbuild;nvcc;razor;scala;scalac;swift;swiftc;vbc;vbc.dll
+2021-01-28T18:36:11.360766Z|cov-build|24979|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to dotnet
+2021-01-28T18:36:11.360770Z|cov-build|24979|info|> Set COVERITY_TEMP to /tmp/cov-daniel/5bd89c0578c81b7b45a15ad7997807f8
+2021-01-28T18:36:11.360776Z|cov-build|24979|info|> Set COVERITY_COMMON_TEMP to /tmp
+2021-01-28T18:36:11.360781Z|cov-build|24979|info|> Set COVERITY_IDIR to /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int
+2021-01-28T18:36:11.360795Z|cov-build|24979|info|> Set COVERITY_OUTPUT to /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/build-log.txt
+2021-01-28T18:36:11.360797Z|cov-build|24979|info|> Set COVERITY_LOG to /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/build-log.txt
+2021-01-28T18:36:11.360806Z|cov-build|24979|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2021-01-28T18:36:11.360809Z|cov-build|24979|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2021-01-28T18:36:11.360813Z|cov-build|24979|info|> Set COVERITY_EMIT to /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit
+2021-01-28T18:36:11.360824Z|cov-build|24979|info|> Set COVERITY_EMIT to /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit
+2021-01-28T18:36:11.360836Z|cov-build|24979|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2021-01-28T18:36:11.360871Z|cov-build|24979|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2021-01-28T18:36:11.360884Z|cov-build|24979|info|> Set COVERITY_IS_COMPILER to 0
+2021-01-28T18:36:11.360886Z|cov-build|24979|info|> Set COVERITY_TOP_PROCESS to 0
+2021-01-28T18:36:11.360888Z|cov-build|24979|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2021-01-28T18:36:11.360894Z|cov-build|24979|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2021-01-28T18:36:11.360907Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360907Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360907Z|cov-build|24979|info|> Dumping Environment Variables:
+2021-01-28T18:36:11.360907Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.360923Z|cov-build|24979|info|> CLUTTER_IM_MODULE=xim
+2021-01-28T18:36:11.360925Z|cov-build|24979|info|> NVM_DIR=/home/daniel/.nvm
+2021-01-28T18:36:11.360928Z|cov-build|24979|info|> LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+2021-01-28T18:36:11.360931Z|cov-build|24979|info|> LC_MEASUREMENT=pt_BR.UTF-8
+2021-01-28T18:36:11.360934Z|cov-build|24979|info|> LESSCLOSE=/usr/bin/lesspipe %s %s
+2021-01-28T18:36:11.360936Z|cov-build|24979|info|> LC_PAPER=pt_BR.UTF-8
+2021-01-28T18:36:11.360938Z|cov-build|24979|info|> LC_MONETARY=pt_BR.UTF-8
+2021-01-28T18:36:11.360940Z|cov-build|24979|info|> XDG_MENU_PREFIX=gnome-
+2021-01-28T18:36:11.360942Z|cov-build|24979|info|> LANG=en_US.UTF-8
+2021-01-28T18:36:11.360944Z|cov-build|24979|info|> MANAGERPID=3929
+2021-01-28T18:36:11.360946Z|cov-build|24979|info|> DISPLAY=:0
+2021-01-28T18:36:11.360948Z|cov-build|24979|info|> INVOCATION_ID=a9f08ad94f0d4dfdb691b7b46a71e961
+2021-01-28T18:36:11.360950Z|cov-build|24979|info|> GNOME_SHELL_SESSION_MODE=ubuntu
+2021-01-28T18:36:11.360952Z|cov-build|24979|info|> COLORTERM=truecolor
+2021-01-28T18:36:11.360954Z|cov-build|24979|info|> NVM_CD_FLAGS=
+2021-01-28T18:36:11.360956Z|cov-build|24979|info|> USERNAME=daniel
+2021-01-28T18:36:11.360959Z|cov-build|24979|info|> XDG_VTNR=2
+2021-01-28T18:36:11.360961Z|cov-build|24979|info|> SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+2021-01-28T18:36:11.360963Z|cov-build|24979|info|> MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+2021-01-28T18:36:11.360965Z|cov-build|24979|info|> LC_NAME=pt_BR.UTF-8
+2021-01-28T18:36:11.360967Z|cov-build|24979|info|> XDG_SESSION_ID=2
+2021-01-28T18:36:11.360969Z|cov-build|24979|info|> USER=daniel
+2021-01-28T18:36:11.360971Z|cov-build|24979|info|> DESKTOP_SESSION=ubuntu
+2021-01-28T18:36:11.360973Z|cov-build|24979|info|> QT4_IM_MODULE=xim
+2021-01-28T18:36:11.360975Z|cov-build|24979|info|> GOPATH=/home/daniel/go
+2021-01-28T18:36:11.360977Z|cov-build|24979|info|> TEXTDOMAINDIR=/usr/share/locale/
+2021-01-28T18:36:11.360979Z|cov-build|24979|info|> GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/7790cc32_2717_4da6_9695_4274b5991717
+2021-01-28T18:36:11.360984Z|cov-build|24979|info|> DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+2021-01-28T18:36:11.360986Z|cov-build|24979|info|> PWD=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple
+2021-01-28T18:36:11.360988Z|cov-build|24979|info|> HOME=/home/daniel
+2021-01-28T18:36:11.360990Z|cov-build|24979|info|> GOROOT=/usr/local/go
+2021-01-28T18:36:11.360992Z|cov-build|24979|info|> LC_CTYPE=pt_BR.UTF-8
+2021-01-28T18:36:11.360994Z|cov-build|24979|info|> JOURNAL_STREAM=9:48726
+2021-01-28T18:36:11.360996Z|cov-build|24979|info|> TEXTDOMAIN=im-config
+2021-01-28T18:36:11.360998Z|cov-build|24979|info|> SSH_AGENT_PID=4063
+2021-01-28T18:36:11.361000Z|cov-build|24979|info|> QT_ACCESSIBILITY=1
+2021-01-28T18:36:11.361002Z|cov-build|24979|info|> XDG_SESSION_TYPE=x11
+2021-01-28T18:36:11.361005Z|cov-build|24979|info|> XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+2021-01-28T18:36:11.361007Z|cov-build|24979|info|> XDG_SESSION_DESKTOP=ubuntu
+2021-01-28T18:36:11.361009Z|cov-build|24979|info|> LC_ADDRESS=pt_BR.UTF-8
+2021-01-28T18:36:11.361011Z|cov-build|24979|info|> DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=673c2890ba2b713d34b7c72a6012a8c8
+2021-01-28T18:36:11.361013Z|cov-build|24979|info|> LC_NUMERIC=pt_BR.UTF-8
+2021-01-28T18:36:11.361015Z|cov-build|24979|info|> GO15VENDOREXPERIMENT=1
+2021-01-28T18:36:11.361017Z|cov-build|24979|info|> GTK_MODULES=gail:atk-bridge
+2021-01-28T18:36:11.361019Z|cov-build|24979|info|> WINDOWPATH=2
+2021-01-28T18:36:11.361021Z|cov-build|24979|info|> TERM=xterm-256color
+2021-01-28T18:36:11.361023Z|cov-build|24979|info|> VTE_VERSION=5202
+2021-01-28T18:36:11.361025Z|cov-build|24979|info|> SHELL=/bin/bash
+2021-01-28T18:36:11.361027Z|cov-build|24979|info|> QT_IM_MODULE=ibus
+2021-01-28T18:36:11.361029Z|cov-build|24979|info|> XMODIFIERS=@im=ibus
+2021-01-28T18:36:11.361031Z|cov-build|24979|info|> IM_CONFIG_PHASE=2
+2021-01-28T18:36:11.361034Z|cov-build|24979|info|> DBUS_STARTER_BUS_TYPE=session
+2021-01-28T18:36:11.361036Z|cov-build|24979|info|> NVM_BIN=/home/daniel/.nvm/versions/node/v12.13.1/bin
+2021-01-28T18:36:11.361038Z|cov-build|24979|info|> XDG_CURRENT_DESKTOP=ubuntu:GNOME
+2021-01-28T18:36:11.361040Z|cov-build|24979|info|> GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+2021-01-28T18:36:11.361042Z|cov-build|24979|info|> GNOME_TERMINAL_SERVICE=:1.303
+2021-01-28T18:36:11.361044Z|cov-build|24979|info|> SHLVL=1
+2021-01-28T18:36:11.361046Z|cov-build|24979|info|> XDG_SEAT=seat0
+2021-01-28T18:36:11.361048Z|cov-build|24979|info|> LC_TELEPHONE=pt_BR.UTF-8
+2021-01-28T18:36:11.361050Z|cov-build|24979|info|> GDMSESSION=ubuntu
+2021-01-28T18:36:11.361052Z|cov-build|24979|info|> GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2021-01-28T18:36:11.361054Z|cov-build|24979|info|> LOGNAME=daniel
+2021-01-28T18:36:11.361056Z|cov-build|24979|info|> DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=673c2890ba2b713d34b7c72a6012a8c8
+2021-01-28T18:36:11.361058Z|cov-build|24979|info|> XDG_RUNTIME_DIR=/run/user/1001
+2021-01-28T18:36:11.361060Z|cov-build|24979|info|> XAUTHORITY=/run/user/1001/gdm/Xauthority
+2021-01-28T18:36:11.361063Z|cov-build|24979|info|> XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+2021-01-28T18:36:11.361065Z|cov-build|24979|info|> PATH=/home/daniel/.nvm/versions/node/v12.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/flutter/bin:/usr/lib/dart/bin:/home/daniel/.pub-cache/bin:/home/daniel/.pub-cache/bin:/usr/local/go/bin
+2021-01-28T18:36:11.361067Z|cov-build|24979|info|> LC_IDENTIFICATION=pt_BR.UTF-8
+2021-01-28T18:36:11.361069Z|cov-build|24979|info|> DESKTOP_MODE=1
+2021-01-28T18:36:11.361071Z|cov-build|24979|info|> SESSION_MANAGER=local/daniel-pc:@/tmp/.ICE-unix/3967,unix/daniel-pc:/tmp/.ICE-unix/3967
+2021-01-28T18:36:11.361073Z|cov-build|24979|info|> LESSOPEN=| /usr/bin/lesspipe %s
+2021-01-28T18:36:11.361075Z|cov-build|24979|info|> GTK_IM_MODULE=ibus
+2021-01-28T18:36:11.361077Z|cov-build|24979|info|> LC_TIME=pt_BR.UTF-8
+2021-01-28T18:36:11.361081Z|cov-build|24979|info|> _=/usr/local/go/bin/go
+2021-01-28T18:36:11.361083Z|cov-build|24979|info|> OLDPWD=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools
+2021-01-28T18:36:11.361085Z|cov-build|24979|info|> COVERITY_PREV_XML_CATALOG_FILES=
+2021-01-28T18:36:11.361087Z|cov-build|24979|info|> COVERITY_TOP_CONFIG=/tmp/cov-daniel/5bd89c0578c81b7b45a15ad7997807f8/cov-configure/coverity_config.xml
+2021-01-28T18:36:11.361089Z|cov-build|24979|info|> COVERITY_BUILD_INVOCATION_ID=2
+2021-01-28T18:36:11.361092Z|cov-build|24979|info|> COVERITY_CONFIG_FILE=/home/daniel/Projects/cov-analysis-linux64-2020.09/config/coverity_config.xml
+2021-01-28T18:36:11.361094Z|cov-build|24979|info|> UseSharedCompilation=false
+2021-01-28T18:36:11.361096Z|cov-build|24979|info|> COVERITY_BIN=/home/daniel/Projects/cov-analysis-linux64-2020.09/bin
+2021-01-28T18:36:11.361098Z|cov-build|24979|info|> COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;java;javac;javaw;kotlin;kotlinc;ld;link;msbuild;nvcc;razor;scala;scalac;swift;swiftc;vbc;vbc.dll
+2021-01-28T18:36:11.361101Z|cov-build|24979|info|> COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+2021-01-28T18:36:11.361103Z|cov-build|24979|info|> COVERITY_TEMP=/tmp/cov-daniel/5bd89c0578c81b7b45a15ad7997807f8
+2021-01-28T18:36:11.361105Z|cov-build|24979|info|> COVERITY_COMMON_TEMP=/tmp
+2021-01-28T18:36:11.361107Z|cov-build|24979|info|> COVERITY_IDIR=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int
+2021-01-28T18:36:11.361109Z|cov-build|24979|info|> COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+2021-01-28T18:36:11.361111Z|cov-build|24979|info|> COVERITY_OUTPUT=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/build-log.txt
+2021-01-28T18:36:11.361113Z|cov-build|24979|info|> COVERITY_LOG=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/build-log.txt
+2021-01-28T18:36:11.361115Z|cov-build|24979|info|> COVERITY_OUTPUT_ENCODING=UTF-8
+2021-01-28T18:36:11.361117Z|cov-build|24979|info|> COVERITY_SYSTEM_ENCODING=UTF-8
+2021-01-28T18:36:11.361119Z|cov-build|24979|info|> COVERITY_EMIT=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit
+2021-01-28T18:36:11.361122Z|cov-build|24979|info|> COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+2021-01-28T18:36:11.361124Z|cov-build|24979|info|> COVERITY_JAVA14_WARNING_FILE=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/warn_about_java14_compilations
+2021-01-28T18:36:11.361126Z|cov-build|24979|info|> COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2021-01-28T18:36:11.361128Z|cov-build|24979|info|> COVERITY_ENABLE_CECS_WATCHDOG=1
+2021-01-28T18:36:11.361130Z|cov-build|24979|info|> COVERITY_IS_COMPILER=0
+2021-01-28T18:36:11.361132Z|cov-build|24979|info|> COVERITY_TOP_PROCESS=0
+2021-01-28T18:36:11.361134Z|cov-build|24979|info|> COVERITY_IS_COMPILER_DESCENDANT=0
+2021-01-28T18:36:11.361136Z|cov-build|24979|info|> COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+2021-01-28T18:36:11.361139Z|cov-build|24979|info|> COVERITY_COMPILER_PATH_MISMATCH_FILE=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/has_path_mismatches
+2021-01-28T18:36:11.361141Z|cov-build|24979|info|> COVERITY_PATHLESS_CONFIGS_FILE=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/has_pathless_configs
+2021-01-28T18:36:11.361145Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361145Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361145Z|cov-build|24979|info|> Dumping configuration:
+2021-01-28T18:36:11.361145Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361152Z|cov-build|24979|info|> User/default configuration:
+2021-01-28T18:36:11.361152Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|> Configuration read from: command-line
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/coverity_config.xml
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|>     Node: prevent
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|>       Node: dir Value: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int
+2021-01-28T18:36:11.361155Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-1/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-2/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-1/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-2/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-ld-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-3/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-3/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javac-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-java-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-apt-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javaw-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-jsp-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-android-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-capture-config-files-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_devenv-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_msbuild-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_link-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-1/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-2/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-dotnet-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-1/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-2/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-3/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-4/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-5/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-6/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javascript-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-html-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-typescript-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-jsx-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vue-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-scalac-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-scala-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-swift-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-swiftc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vbc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vbc-config-1/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-ruby-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-php-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-python-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-nvcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-go-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-go-module-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlinc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlin-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|>     Node: include Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlin-module-config-0/coverity_config.xml
+2021-01-28T18:36:11.361168Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: comp_name Value: gcc
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: comp_translator Value: gcc
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: id Value: gcc-gcc-.*
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: id Value: g++-gcc-.*
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: id Value: g++cc-gcc-.*
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2021-01-28T18:36:11.361248Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-0/coverity_config.xml
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: comp_name Value: g++
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: comp_translator Value: g++
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: id Value: g++-g++-.*
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: id Value: g++cc-g++-.*
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2021-01-28T18:36:11.361284Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-1/coverity_config.xml
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: comp_name Value: gcc-3
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: comp_translator Value: gcc
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: id Value: gcc-gcc-3-.*
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-1/../user_nodefs.h
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: id Value: g++-gcc-3-.*
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-1/../user_nodefs.h
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: id Value: g++cc-gcc-3-.*
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-1/../user_nodefs.h
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2021-01-28T18:36:11.361313Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-2/coverity_config.xml
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: comp_name Value: gcc-4
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: comp_translator Value: gcc
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: id Value: gcc-gcc-4-.*
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-2/../user_nodefs.h
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: id Value: g++-gcc-4-.*
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-2/../user_nodefs.h
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: id Value: g++cc-gcc-4-.*
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-2/../user_nodefs.h
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2021-01-28T18:36:11.361348Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-1/coverity_config.xml
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: comp_name Value: g++-3
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: comp_translator Value: g++
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: id Value: g++-g++-3-.*
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-1/../user_nodefs.h
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: id Value: g++cc-g++-3-.*
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-1/../user_nodefs.h
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2021-01-28T18:36:11.361382Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-2/coverity_config.xml
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: comp_name Value: g++-4
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: comp_translator Value: g++
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: id Value: g++-g++-4-.*
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-2/../user_nodefs.h
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: id Value: g++cc-g++-4-.*
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-2/../user_nodefs.h
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2021-01-28T18:36:11.361411Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-ld-config-0/coverity_config.xml
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: comp_name Value: ld
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: comp_translator Value: ld
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: id Value: ld-ld-.*
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-ld-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2021-01-28T18:36:11.361440Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-3/coverity_config.xml
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: comp_name Value: cc
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: comp_translator Value: gcc
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: id Value: gcc-cc-.*
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-3/../user_nodefs.h
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: id Value: g++-cc-.*
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-3/../user_nodefs.h
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: id Value: g++cc-cc-.*
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-gcc-config-3/../user_nodefs.h
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|>   Node: md5 Value: 5ab1d465abf1e699248ecdb7fe5931c0
+2021-01-28T18:36:11.361465Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-3/coverity_config.xml
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: comp_name Value: c++
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: comp_translator Value: g++
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: comp_generic Value: gnu
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: id Value: g++-c++-.*
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-3/../user_nodefs.h
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: id Value: g++cc-c++-.*
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-g++-config-3/../user_nodefs.h
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|>   Node: md5 Value: 92107d6a420ac9dd06caaaf4fa667276
+2021-01-28T18:36:11.361498Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javac-config-0/coverity_config.xml
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: comp_name Value: javac
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: comp_translator Value: javac
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: comp_lang Value: Static Java
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: id Value: javac-javac-.*
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2021-01-28T18:36:11.361529Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-java-config-0/coverity_config.xml
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: comp_name Value: java
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: comp_translator Value: java
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: comp_lang Value: Static Java
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: id Value: java-java-.*
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2021-01-28T18:36:11.361550Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-apt-config-0/coverity_config.xml
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: comp_name Value: apt
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: comp_translator Value: apt
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: comp_lang Value: Static Java
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: id Value: apt-apt-.*
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2021-01-28T18:36:11.361574Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javaw-config-0/coverity_config.xml
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: comp_name Value: javaw
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: comp_translator Value: javaw
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: comp_lang Value: Static Java
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: id Value: javaw-javaw-.*
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2021-01-28T18:36:11.361595Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-jsp-config-0/coverity_config.xml
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: comp_translator Value: jsp
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2021-01-28T18:36:11.361617Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-android-config-0/coverity_config.xml
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: comp_translator Value: android
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: comp_generic Value: java
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml|gradlew|gradlew\.bat)$
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|>   Node: md5 Value: f656edef6880a9092fcbe3e2cd89f87a
+2021-01-28T18:36:11.361641Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-capture-config-files-config-0/coverity_config.xml
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: comp_translator Value: capture-config-files
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: comp_generic Value: capture_config_files
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: file_include_pattern Value: $capture-config-files$
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|>   Node: md5 Value: b94e617f98adb465b84e44c2bb1187e2
+2021-01-28T18:36:11.361665Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: comp_name Value: cl
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: comp_translator Value: msvc
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: comp_generic Value: msvc
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: id Value: msvc-cl-.*
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_instrument_config_version
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: 3
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_deployment_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_header_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/sdk/runtime/ta-runtime
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_name
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: x64
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x64.lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: x86
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x86.lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: id Value: msvc_cxx-cl-.*
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_instrument_config_version
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: 3
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_deployment_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_header_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/sdk/runtime/ta-runtime
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_name
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: x64
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x64.lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: x86
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x86.lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_path
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|>   Node: md5 Value: b8f896e62964739ed54c698f6916a0d9
+2021-01-28T18:36:11.361688Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_devenv-config-0/coverity_config.xml
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: comp_name Value: devenv
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: comp_translator Value: msvc_devenv
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: comp_generic Value: msvc
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: id Value: msvc_devenv-devenv-.*
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_devenv-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2021-01-28T18:36:11.361830Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_msbuild-config-0/coverity_config.xml
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: comp_name Value: msbuild
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: comp_translator Value: msvc_msbuild
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: comp_generic Value: msvc
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_msbuild-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2021-01-28T18:36:11.361855Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_link-config-0/coverity_config.xml
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: comp_name Value: link
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: comp_translator Value: msvc_link
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: comp_generic Value: msvc
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: id Value: msvc_link-link-.*
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-msvc_link-config-0/../user_nodefs.h
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: var_name Value: cov_instrument_config_version
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: 3
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_deployment_path
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_header_path
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/sdk/runtime/ta-runtime
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_name
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: x64
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x64.lib
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: x86
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: libci-runtime-x86.lib
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: instrument_variable
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: var_name Value: cov_lib_path
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>           Node: cond_platform_value
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: platform_name Value: all
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>             Node: var_value Value: /hudson_home/workspace/Admin_Tools/SCAN/make-scan-kits.linux64/cov-analysis-linux64-2020.09/lib
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|>   Node: md5 Value: e4fcf7f1b39782b1bcd7f32a30a74827
+2021-01-28T18:36:11.361878Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-0/coverity_config.xml
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: comp_name Value: csc
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: comp_translator Value: csc
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: comp_lang Value: C#
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: comp_generic Value: csc
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: id Value: csc-csc-.*
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2021-01-28T18:36:11.361940Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-1/coverity_config.xml
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: comp_name Value: csc2
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: comp_translator Value: csc
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: comp_lang Value: C#
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: comp_generic Value: csc
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: id Value: csc-csc2-.*
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2021-01-28T18:36:11.361963Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-csc-config-2/coverity_config.xml
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: comp_name Value: csc.dll
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: comp_translator Value: csc
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: comp_lang Value: C#
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: comp_generic Value: csc
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: id Value: csc-csc.dll-.*
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|>   Node: md5 Value: d7617a61a1e5d38ea17e0065e15a334c
+2021-01-28T18:36:11.361985Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-dotnet-config-0/coverity_config.xml
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: comp_name Value: dotnet
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: comp_translator Value: dotnet
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: comp_lang Value: C#
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: comp_capture_descendants Value: true
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: comp_generic Value: dotnet
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: id Value: dotnet-dotnet-.*
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|>   Node: md5 Value: c1f04f52f32e19ee321f007827420925
+2021-01-28T18:36:11.362006Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-0/coverity_config.xml
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: comp_name Value: razor
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: id Value: razor-razor-.*
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|>   Node: md5 Value: 299c29c5e1aed07e748c20434abece6a
+2021-01-28T18:36:11.362031Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-1/coverity_config.xml
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe-.*
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|>   Node: md5 Value: b8062469abf35bf27e59c61097a25898
+2021-01-28T18:36:11.362052Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-2/coverity_config.xml
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll-.*
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|>   Node: md5 Value: a9f1338dd3da86ae5a0b02feb72011bc
+2021-01-28T18:36:11.362074Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-3/coverity_config.xml
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe-.*
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|>   Node: md5 Value: d148b26c0cca97f3cfbca9c9e97fbd2c
+2021-01-28T18:36:11.362098Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-4/coverity_config.xml
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe-.*
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|>   Node: md5 Value: 4192dd38aff0a2b1f462f5ea2de56602
+2021-01-28T18:36:11.362119Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-5/coverity_config.xml
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll-.*
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|>   Node: md5 Value: 9fac531b04a3ec13b4f2c7884a7b9d4d
+2021-01-28T18:36:11.362141Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-razor-config-6/coverity_config.xml
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: comp_translator Value: razor
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: comp_lang Value: Razor
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: comp_generic Value: razor
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll-.*
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|>   Node: md5 Value: 42e63af2dc0e9a8129a530b0de6d639f
+2021-01-28T18:36:11.362165Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: comp_name Value: clang
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: comp_translator Value: clangcc
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: comp_generic Value: clang
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: id Value: clangcc-clang-.*
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: id Value: clangcxx-clang-.*
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: id Value: clangcxxcc-clang-.*
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: id Value: clangobjc-clang-.*
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: id Value: clangobjcxx-clang-.*
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2021-01-28T18:36:11.362186Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/coverity_config.xml
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: comp_name Value: clang++
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: comp_translator Value: clangcxx
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: comp_generic Value: clang
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: id Value: clangcxx-clang++-.*
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: id Value: clangcxxcc-clang++-.*
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: id Value: clangobjc-clang++-.*
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: id Value: clangobjcxx-clang++-.*
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-clangcxx-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2021-01-28T18:36:11.362232Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-javascript-config-0/coverity_config.xml
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: comp_translator Value: javascript
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: comp_generic Value: javascript
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib|map)$
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|>   Node: md5 Value: 5dc7fe28a5d7a345225ec3edabbf5701
+2021-01-28T18:36:11.362272Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-html-config-0/coverity_config.xml
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: comp_translator Value: html
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: comp_generic Value: javascript
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|>   Node: md5 Value: 874e134728d1412d745d699feb38e141
+2021-01-28T18:36:11.362300Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-typescript-config-0/coverity_config.xml
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-typescript-0
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: comp_translator Value: typescript
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: comp_generic Value: typescript
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*(\.ts(x?)|tsconfig.json)$
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: id Value: typescript-cov-filesystem-capture-typescript-0-.*
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|>   Node: md5 Value: 0fbcd451629a877b0945511269f745bd
+2021-01-28T18:36:11.362329Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-jsx-config-0/coverity_config.xml
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: comp_translator Value: jsx
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: comp_generic Value: javascript
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.jsx$
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|>   Node: md5 Value: 6ef7db223c129acd408eed304126e3a1
+2021-01-28T18:36:11.362356Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vue-config-0/coverity_config.xml
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-vue-0
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: comp_translator Value: vue
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: comp_generic Value: javascript
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.vue$
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: id Value: vue-cov-filesystem-capture-vue-0-.*
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|>   Node: md5 Value: e2e0d3714ab927a7bdeebe5c48dde342
+2021-01-28T18:36:11.362385Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-scalac-config-0/coverity_config.xml
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: comp_name Value: scalac
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: comp_translator Value: scalac
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: comp_lang Value: Scala
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: comp_generic Value: scala
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: id Value: scalac-scalac-.*
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|>   Node: md5 Value: 72f6e51a33977034a91c37366e5501cc
+2021-01-28T18:36:11.362412Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-scala-config-0/coverity_config.xml
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: comp_name Value: scala
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: comp_translator Value: scala
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: comp_lang Value: Scala
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: comp_generic Value: scala
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: id Value: scala-scala-.*
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|>   Node: md5 Value: 06e293540a5f4dc8f97f0f06a6021b74
+2021-01-28T18:36:11.362433Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-swift-config-0/coverity_config.xml
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: comp_name Value: swift
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: comp_translator Value: swift
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: comp_lang Value: Swift
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: comp_generic Value: swift
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: id Value: swift-swift-.*
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|>   Node: md5 Value: 971ef94b00e68681479ad4b5afb1196c
+2021-01-28T18:36:11.362458Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-swiftc-config-0/coverity_config.xml
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: comp_name Value: swiftc
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: comp_translator Value: swiftc
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: comp_lang Value: Swift
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: comp_generic Value: swiftc
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: id Value: swiftc-swiftc-.*
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|>   Node: md5 Value: 3d621da669910c0302c709943aa6b104
+2021-01-28T18:36:11.362479Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vbc-config-0/coverity_config.xml
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: comp_name Value: vbc
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: comp_translator Value: vbc
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: comp_lang Value: Visual Basic
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: comp_generic Value: vbc
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: id Value: vbc-vbc-.*
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|>   Node: md5 Value: feeb8b03a6f975f0aaca18abe6c96895
+2021-01-28T18:36:11.362501Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-vbc-config-1/coverity_config.xml
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: comp_name Value: vbc.dll
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: comp_translator Value: vbc
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: comp_lang Value: Visual Basic
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: comp_generic Value: vbc
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: id Value: vbc-vbc.dll-.*
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|>   Node: md5 Value: fb11aa1996139335dbc0bdc5b4851b37
+2021-01-28T18:36:11.362524Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-ruby-config-0/coverity_config.xml
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: comp_translator Value: ruby
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: comp_generic Value: ruby
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*(\.rb|Gemfile)$
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|>   Node: md5 Value: 9a95acc499de60467aeb7e3b29315f90
+2021-01-28T18:36:11.362545Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-php-config-0/coverity_config.xml
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: comp_translator Value: php
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: comp_generic Value: php
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.ph(p|p3|p4|p5|p7|tml)$
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|>   Node: md5 Value: 6db33a0a68d7f8c9b0f5085b9afaab3b
+2021-01-28T18:36:11.362568Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-python-config-0/coverity_config.xml
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: comp_translator Value: python
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: comp_generic Value: python
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.py$
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2021-01-28T18:36:11.362593Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-nvcc-config-0/coverity_config.xml
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_name Value: nvcc
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_translator Value: nvcc
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_lang Value: C/C++
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_generic Value: nvcc
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_autodetect_type Value: nvcc:qnx
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_autodetect_type Value: nvcc:gnu
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_autodetect_type Value: nvcc:msvc
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: comp_is_redirect Value: true
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: id Value: nvcc-nvcc-.*
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-nvcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: id Value: nvcc_cxx-nvcc-.*
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-nvcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: id Value: nvcc_cuda-nvcc-.*
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: opt_preinclude_file Value: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-nvcc-config-0/../user_nodefs.h
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|>   Node: md5 Value: d95dcc669eeea2db54ddc4e59d1d9124
+2021-01-28T18:36:11.362616Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-go-config-0/coverity_config.xml
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: comp_name Value: go
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: comp_translator Value: go
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: comp_lang Value: Go
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: comp_generic Value: go
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: id Value: go-go-.*
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|>   Node: md5 Value: 395609931cebc474122a4d66367445f5
+2021-01-28T18:36:11.362657Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-go-module-config-0/coverity_config.xml
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-go-module-0
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: comp_translator Value: go-module
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: comp_generic Value: go
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^go\.mod$
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: id Value: go-module-cov-filesystem-capture-go-module-0-.*
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|>   Node: md5 Value: 3a8cde3348dc3549d973b7ca377a639c
+2021-01-28T18:36:11.362678Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlinc-config-0/coverity_config.xml
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: comp_name Value: kotlinc
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: comp_translator Value: kotlinc
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: comp_lang Value: Kotlin
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: comp_generic Value: kotlin
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: id Value: kotlinc-kotlinc-.*
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|>   Node: md5 Value: c68e7b6acd2042f4dec6d624b2d2aa7b
+2021-01-28T18:36:11.362703Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlin-config-0/coverity_config.xml
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: comp_name Value: kotlin
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: comp_translator Value: kotlin
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: comp_lang Value: Kotlin
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: comp_generic Value: kotlin
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: id Value: kotlin-kotlin-.*
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|>   Node: md5 Value: 1d37b51d78837c20116306c377ae2080
+2021-01-28T18:36:11.362725Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|> Configuration read from: /home/daniel/Projects/cov-analysis-linux64-2020.09/config/template-kotlin-module-config-0/coverity_config.xml
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: template_compiler Value: true
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: comp_name Value: cov-filesystem-capture-kotlin-module-0
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: comp_translator Value: kotlin-module
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: comp_lang Value: Non Compiled
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: comp_generic Value: kotlin
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: file_include_pattern Value: ^.*\.kotlin_module$
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: id Value: kotlin-module-cov-filesystem-capture-kotlin-module-0-.*
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|>   Node: md5 Value: 33c8dff4b1803fd1b46ff7624a34a01b
+2021-01-28T18:36:11.362746Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.364065Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.364065Z|cov-build|24979|info|> Cached template configuration instances:
+2021-01-28T18:36:11.364065Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|> Configuration read from: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit/daniel-pc/config/1b6059ff205659f461e8a1aee37d6050/coverity_config.xml
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|>     Node: include Value: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit/daniel-pc/config/1b6059ff205659f461e8a1aee37d6050/go-config-0/coverity_config.xml
+2021-01-28T18:36:11.364077Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|> Configuration read from: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit/daniel-pc/config/1b6059ff205659f461e8a1aee37d6050/go-config-0/coverity_config.xml
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|> Node: coverity
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>   Node: cit_version Value: 1
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>   Node: config
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>     Node: build
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>       Node: compiler
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_name Value: go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_dir Value: /usr/local/go/bin
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_translator Value: go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_lang Value: Go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_front_end Value: cov-emit-go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_desc Value: Go Compiler (go)
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: comp_generic Value: go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: id Value: go-go-1.15.3linux/amd64-1b6059ff205659f461e8a1aee37d6050-0
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: version Value: 1.15.3linux/amd64
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: is_compiler Value: true
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: is_linker Value: false
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>       Node: options
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: id Value: go-go-1.15.3linux/amd64-1b6059ff205659f461e8a1aee37d6050-0
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: template_config_option_id Value: go-go-.*
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: bug
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: clean
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: doc
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: env
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: fix
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: fmt
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: generate
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: get
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: help
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: list
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: mod
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: tool
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: version
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: skip_arg Value: vet
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: expand
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>           Node: options
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>             Node: replace_arg_regex
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>               Node: replace Value: @(.*)
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>               Node: with Value: --coverity_resp_file=$1
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>             Node: intern_split_response_file_fn Value: line_split
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: pre_trans
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>           Node: options
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>             Node: prepend_arg Value: -coverity_source=go
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>             Node: intern_trans Value: go_pre_translate
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>         Node: begin_command_line_config
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|>   Node: md5 Value: 7aba8b5613f87e0f7e2c359b1add7157
+2021-01-28T18:36:11.364088Z|cov-build|24979|info|> 
+2021-01-28T18:36:11.365383Z|cov-build|24979|info|> Using LD_PRELOAD = /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/libcapture-linux64-${PLATFORM}.so
+[24982] EXECUTING: go build ./...
+[24983] CWD: /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple
+[24983] COMPILING: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-translate go build ./...
+Using cached template compiler configuration instance /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/emit/daniel-pc/config/1b6059ff205659f461e8a1aee37d6050/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "build" "./..."
+/home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-emit-go --dir=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int --build ./... 
+Command line with response file: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-emit-go @utf8@/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/tmp/cov-emit-go-fa089953cc97c69f6bec59030c33af10-0.cmd_args.txt
+lint.go:22:2: use of internal package honnef.co/go/tools/internal/sharedcheck not allowed
+/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/lint.go:932:19: Equal not declared by package astutil
+/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/lint.go:1458:23: cannot use &irpkg.Prog.MethodSets (value of type *typeutil.MethodSetCache) as *typeutil.MethodSetCache value in argument to isFormatter
+/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/lint.go:1463:22: cannot use &irpkg.Prog.MethodSets (value of type *typeutil.MethodSetCache) as *typeutil.MethodSetCache value in argument to isStringer
+[STATUS] Compiling package golang.org/x/sys/execabs
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/sys/execabs/execabs.go
+[STATUS] Skip compiling standard library package encoding/json
+[STATUS] Compiling package golang.org/x/tools/go/analysis/passes/inspect
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/analysis/passes/inspect/inspect.go
+[STATUS] Skip compiling standard library package go/format
+[STATUS] Skip compiling standard library package internal/syscall/execenv
+[STATUS] Skip compiling standard library package text/template
+[STATUS] Compiling package golang.org/x/tools/internal/event
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/doc.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/event.go
+[STATUS] Skip compiling standard library package strconv
+[STATUS] Skip compiling standard library package encoding/binary
+[STATUS] Skip compiling standard library package internal/syscall/unix
+[STATUS] Compiling package golang.org/x/tools/go/gcexportdata
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/gcexportdata/gcexportdata.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/gcexportdata/importer.go
+[STATUS] Compiling package honnef.co/go/tools/internal/sharedcheck
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/internal/sharedcheck/lint.go
+[STATUS] Skip compiling standard library package internal/testlog
+[STATUS] Skip compiling standard library package fmt
+[STATUS] Skip compiling standard library package internal/race
+[STATUS] Skip compiling standard library package encoding
+[STATUS] Skip compiling standard library package go/types
+[STATUS] Compiling package golang.org/x/tools/go/ast/inspector
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/inspector/inspector.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/inspector/typeof.go
+[STATUS] Compiling package golang.org/x/tools/go/ast/astutil
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/enclosing.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/imports.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/rewrite.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/util.go
+[STATUS] Compiling package golang.org/x/tools/go/loader
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/loader/doc.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/loader/loader.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/loader/util.go
+[STATUS] Skip compiling standard library package runtime/internal/sys
+[STATUS] Compiling package golang.org/x/tools/internal/lsp/fuzzy
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/lsp/fuzzy/input.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/lsp/fuzzy/matcher.go
+[STATUS] Compiling package golang.org/x/tools/internal/event/label
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/label/label.go
+[STATUS] Compiling package golang.org/x/xerrors/internal
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/internal/internal.go
+[STATUS] Compiling package honnef.co/go/tools/internal/passes/buildir
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/internal/passes/buildir/buildir.go
+[STATUS] Skip compiling standard library package go/ast
+[STATUS] Skip compiling standard library package bytes
+[STATUS] Skip compiling standard library package runtime/internal/atomic
+[STATUS] Skip compiling standard library package internal/goroot
+[STATUS] Skip compiling standard library package internal/goversion
+[STATUS] Skip compiling standard library package internal/lazyregexp
+[STATUS] Compiling package golang.org/x/tools/go/internal/cgo
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/cgo/cgo.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/cgo/cgo_pkgconfig.go
+[STATUS] Skip compiling standard library package internal/reflectlite
+[STATUS] Skip compiling standard library package regexp
+[STATUS] Skip compiling standard library package unicode/utf8
+[STATUS] Skip compiling standard library package unsafe
+[STATUS] Skip compiling standard library package internal/oserror
+[STATUS] Skip compiling standard library package go/token
+[STATUS] Compiling package honnef.co/go/tools/analysis/code
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/code/code.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/code/visit.go
+[STATUS] Compiling package golang.org/x/tools/go/types/typeutil
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/callee.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/imports.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/map.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/methodsetcache.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/ui.go
+[STATUS] Compiling package github.com/ufcg/danielrcoura/go-tools/simple
+[STATUS] Compiling file /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/analysis.go
+[STATUS] Compiling file /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/doc.go
+[STATUS] Compiling file /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/lint.go
+[ERROR] No mapping found for ident Equal
+goroutine 1 [running]:
+runtime/debug.Stack(0x122da00, 0xc000010018, 0xc009addfe0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/linux64-packages/go/src/runtime/debug/stack.go:24 +0x9d
+main.(*AstEmitter).xlateFile.func1(0x123de40, 0xc0097a55b8)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:298 +0xb7
+panic(0x103e220, 0xc00b69b000)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/linux64-packages/go/src/runtime/panic.go:969 +0x166
+main.(*AstEmitter).xlateIdent(0xc0094f6480, 0xc00c251020, 0xc00245d7c0, 0xc009c17f00)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2485 +0xed9
+main.(*AstEmitter).xlateExpr(0xc0094f6480, 0x1234b40, 0xc00c251020, 0x1dbdd80, 0xc009c17f00)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:716 +0xe5
+main.(*AstEmitter).xlateCallExpr(0xc0094f6480, 0xc008ef74c0, 0xc00245d7c0, 0xc009c17f00)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:1474 +0x175e
+main.(*AstEmitter).xlateExpr(0xc0094f6480, 0x1234740, 0xc008ef74c0, 0x123c140, 0xc009c17fb8)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:728 +0x55e
+main.(*AstEmitter).xlateReturnStmt(0xc0094f6480, 0xc00c2549c0, 0x123d500, 0xc009c17f80)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2699 +0x20fb
+main.(*AstEmitter).xlateStmt(0xc0094f6480, 0x1234e00, 0xc00c2549c0, 0x123d500, 0xc009c17f80)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2582 +0x6a6
+main.(*AstEmitter).xlateCaseClause(0xc0094f6480, 0xc008ef7500, 0x123d500, 0xc009c16a98)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4340 +0x4ea
+main.(*AstEmitter).xlateStmt(0xc0094f6480, 0x1234780, 0xc008ef7500, 0x123d500, 0xc009c16a98)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2603 +0xa0e
+main.(*AstEmitter).xlateBlockStmt(0xc0094f6480, 0xc008b492c0, 0x0, 0x0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4811 +0x142
+main.(*AstEmitter).xlateGenericSwitchStmt(0xc0094f6480, 0x5bbc21, 0x5bbcd4, 0x0, 0x0, 0x1234b40, 0xc00b5d70e0, 0xc008b492c0, 0x0, 0x0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4049 +0x151
+main.(*AstEmitter).xlateTypeSwitchStmt(0xc0094f6480, 0xc008b49320, 0xc009c16998, 0x123e200)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4070 +0xf6
+main.(*AstEmitter).xlateStmt(0xc0094f6480, 0x1235080, 0xc008b49320, 0x123d500, 0xc009c16328)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2609 +0x4d6
+main.(*AstEmitter).xlateFuncBody(0xc0094f6480, 0xc008b49380, 0xc0085d87b0, 0x0, 0xc008b48e70, 0x0, 0x0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4906 +0x5a2
+main.(*AstEmitter).xlateFuncLit(0xc0094f6480, 0xc0092106b0, 0x0, 0x0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2119 +0x483
+main.(*AstEmitter).xlateExpr(0xc0094f6480, 0x1234a40, 0xc0092106b0, 0xc0080caae8, 0xc009c16001)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:726 +0x7a4
+main.(*AstEmitter).xlateAssignStmt(0xc0094f6480, 0xc008ef7580, 0x0, 0x1)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4696 +0x1c8
+main.(*AstEmitter).xlateStmt(0xc0094f6480, 0x1234540, 0xc008ef7580, 0x123d500, 0xc009c16078)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:2578 +0x6e4
+main.(*AstEmitter).xlateFuncBody(0xc0094f6480, 0xc006245c50, 0xc0084f0db0, 0x0, 0xc008b48d80, 0x0, 0x0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:4906 +0x5a2
+main.(*AstEmitter).xlateFuncDecl(0xc0094f6480, 0xc006245dd0)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:692 +0x4c9
+main.(*AstEmitter).xlateFile(0xc0094f6480, 0xc007819780)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:314 +0x336
+main.(*AstEmitter).xlatePackage(0xc0094f6480, 0xc0004cdc20)
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/ast-emitter.go:244 +0x2b0
+main.main()
+	/data00/jenkins/workspace/SAT/prevent-upland.linux64/build/frontend/cov-emit-go/cov-internal-go-fe/src/cov-internal-go-fe/cov-internal-go-fe.go:160 +0xb04
+
+[STATUS] Skip compiling standard library package go/parser
+[STATUS] Compiling package honnef.co/go/tools/go/ir/irutil
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/load.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/loops.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/stub.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/switch.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/terminates.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/util.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/visit.go
+[STATUS] Compiling package golang.org/x/tools/go/packages
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/doc.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/external.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/golist.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/golist_overlay.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/loadmode_string.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/packages.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/packages/visit.go
+[STATUS] Skip compiling standard library package path
+[STATUS] Compiling package golang.org/x/tools/internal/analysisinternal
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/analysisinternal/analysis.go
+[STATUS] Skip compiling standard library package sync
+[STATUS] Skip compiling standard library package internal/bytealg
+[STATUS] Skip compiling standard library package log
+[STATUS] Compiling package golang.org/x/tools/internal/packagesinternal
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/packagesinternal/packages.go
+[STATUS] Compiling package golang.org/x/tools/internal/gocommand
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/gocommand/invoke.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/gocommand/vendor.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/gocommand/version.go
+[STATUS] Compiling package honnef.co/go/tools/go/types/typeutil
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/callee.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/imports.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/methodsetcache.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/ui.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/util.go
+[STATUS] Compiling package honnef.co/go/tools/go/ast/astutil
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ast/astutil/util.go
+[STATUS] Skip compiling standard library package path/filepath
+[STATUS] Skip compiling standard library package unicode
+[STATUS] Skip compiling standard library package flag
+[STATUS] Skip compiling standard library package go/build
+[STATUS] Skip compiling standard library package go/scanner
+[STATUS] Skip compiling standard library package html
+[STATUS] Compiling package golang.org/x/tools/go/internal/packagesdriver
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/packagesdriver/sizes.go
+[STATUS] Compiling package golang.org/x/tools/internal/event/core
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/core/event.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/core/export.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/core/fast.go
+[STATUS] Compiling package honnef.co/go/tools/knowledge
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/knowledge/arg.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/knowledge/deprecated.go
+[STATUS] Skip compiling standard library package reflect
+[STATUS] Skip compiling standard library package go/printer
+[STATUS] Skip compiling standard library package os/exec
+[STATUS] Skip compiling standard library package go/doc
+[STATUS] Skip compiling standard library package net/url
+[STATUS] Skip compiling standard library package internal/fmtsort
+[STATUS] Skip compiling standard library package text/scanner
+[STATUS] Skip compiling standard library package math
+[STATUS] Skip compiling standard library package errors
+[STATUS] Skip compiling standard library package math/bits
+[STATUS] Skip compiling standard library package sync/atomic
+[STATUS] Skip compiling standard library package context
+[STATUS] Compiling package golang.org/x/xerrors
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/adaptor.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/doc.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/errors.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/fmt.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/format.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/frame.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/xerrors/wrap.go
+[STATUS] Skip compiling standard library package sort
+[STATUS] Skip compiling standard library package unicode/utf16
+[STATUS] Skip compiling standard library package text/template/parse
+[STATUS] Compiling package honnef.co/go/tools/analysis/lint
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/lint/lint.go
+[STATUS] Skip compiling standard library package go/constant
+[STATUS] Skip compiling standard library package strings
+[STATUS] Skip compiling standard library package bufio
+[STATUS] Skip compiling standard library package internal/cpu
+[STATUS] Compiling package golang.org/x/tools/go/buildutil
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/buildutil/allpackages.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/buildutil/fakecontext.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/buildutil/overlay.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/buildutil/tags.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/buildutil/util.go
+[STATUS] Compiling package honnef.co/go/tools/pattern
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/convert.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/doc.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/lexer.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/match.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/parser.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/pattern/pattern.go
+[STATUS] Skip compiling standard library package text/tabwriter
+[STATUS] Skip compiling standard library package io
+[STATUS] Skip compiling standard library package internal/poll
+[STATUS] Compiling package honnef.co/go/tools/go/ir
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/blockopt.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/builder.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/const.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/create.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/doc.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/dom.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/emit.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/exits.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/func.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/html.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/identical.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/lift.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/lvalue.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/methods.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/mode.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/print.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/sanity.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/source.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/ssa.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/util.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/wrappers.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/go/ir/write.go
+[STATUS] Skip compiling standard library package math/rand
+[STATUS] Compiling package golang.org/x/tools/internal/typesinternal
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/errorcode.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/errorcode_string.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/types.go
+[STATUS] Skip compiling standard library package io/ioutil
+[STATUS] Compiling package honnef.co/go/tools/analysis/facts
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/facts/deprecated.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/facts/directives.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/facts/generated.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/facts/purity.go
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/facts/token.go
+[STATUS] Compiling package honnef.co/go/tools/analysis/edit
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/edit/edit.go
+[STATUS] Compiling package golang.org/x/mod/semver
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/mod/semver/semver.go
+[STATUS] Skip compiling standard library package encoding/base64
+[STATUS] Skip compiling standard library package runtime/internal/math
+[STATUS] Skip compiling standard library package regexp/syntax
+[STATUS] Compiling package golang.org/x/tools/go/analysis
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/analysis/analysis.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/analysis/diagnostic.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/analysis/doc.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/analysis/validate.go
+[STATUS] Skip compiling standard library package container/heap
+[STATUS] Skip compiling standard library package os
+[STATUS] Skip compiling standard library package runtime
+[STATUS] Skip compiling standard library package math/big
+[STATUS] Skip compiling standard library package syscall
+[STATUS] Compiling package honnef.co/go/tools/analysis/report
+[STATUS] Compiling file /home/daniel/go/src/honnef.co/go/tools/analysis/report/report.go
+[STATUS] Compiling package golang.org/x/tools/internal/event/keys
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/keys/keys.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/internal/event/keys/standard.go
+[STATUS] Compiling package golang.org/x/tools/go/internal/gcimporter
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/bexport.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/bimport.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/exportdata.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/gcimporter.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/iexport.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/iimport.go
+[STATUS] Compiling file /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/newInterface11.go
+[STATUS] Skip compiling standard library package time
+2021-01-28T18:36:14.945167Z|cov-build|24979|info|> Invoking cov-security-da with commands: /home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-security-da --dir /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int
+2021-01-28T18:36:14.989676Z|cov-build|24979|info|> Dynamic analyzer took 43 ms
+2021-01-28T18:36:14.989676Z|cov-build|24979|info|> Build time (cov-build overall): 00:00:03.696110
+2021-01-28T18:36:14.989676Z|cov-build|24979|info|> 
+2021-01-28T18:36:14.990770Z|cov-build|24979|info|> Build time (Go emits total): 00:00:03.536798
+2021-01-28T18:36:14.990770Z|cov-build|24979|info|> 
+2021-01-28T18:36:14.990770Z|cov-build|24979|info|> 
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|> [WARNING] Build command go build ./... exited with code 1. Please verify that the build completed successfully.
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|> Emitted 128 Go compilation units (99%) successfully
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|> 
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|> 252 Go compilation units (99%) are ready for analysis
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|>  For more details, please look at: 
+2021-01-28T18:36:14.990795Z|cov-build|24979|info|>     /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int/build-log.txt

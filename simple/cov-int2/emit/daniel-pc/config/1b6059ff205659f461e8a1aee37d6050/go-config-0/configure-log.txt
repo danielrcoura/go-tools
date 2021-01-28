@@ -1,0 +1,19 @@
+**** BEGIN PROBE run_test_sanity ****
+**** END PROBE run_test_sanity ****
+**** BEGIN PROBE get_version_switch_output ****
+Version switch: version
+**** BEGIN FILE source file: /tmp/cov-daniel/2b4dace18b5d8f0298fd234ee1a93455/cov-daniel/4c12ad3bbb4e2ce38fc0a2c99d182571/test.go
+int main() {} 
+
+**** END source file ***
+pipe_command: /usr/local/go/bin/go version 
+pipe_commands starting: /usr/local/go/bin/go version 
+**** BEGIN FILE output: /tmp/cov-daniel/2b4dace18b5d8f0298fd234ee1a93455/cov-daniel/4c12ad3bbb4e2ce38fc0a2c99d182571/version_output
+go version go1.15.3 linux/amd64
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** END PROBE get_version_switch_output ****
+Compiler version found: 1.15.3linux/amd64

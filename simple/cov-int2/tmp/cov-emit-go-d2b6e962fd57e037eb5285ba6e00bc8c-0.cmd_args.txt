@@ -1,0 +1,3 @@
+--dir=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int2
+--build
+./...

@@ -1,0 +1,645 @@
+Translation unit:
+90 -> /home/daniel/go/src/golang.org/x/tools/go/packages/external.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+82 -> /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+83 -> /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/lint.go (no ASTs) (failure)
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+84 -> /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/callee.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+85 -> /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/imports.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+86 -> /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/methodsetcache.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+87 -> /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/ui.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+88 -> /home/daniel/go/src/honnef.co/go/tools/go/types/typeutil/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+89 -> /home/daniel/go/src/golang.org/x/tools/go/packages/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+81 -> /home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/analysis.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+91 -> /home/daniel/go/src/golang.org/x/tools/go/packages/golist.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+92 -> /home/daniel/go/src/golang.org/x/tools/go/packages/golist_overlay.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+93 -> /home/daniel/go/src/golang.org/x/tools/go/packages/loadmode_string.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+94 -> /home/daniel/go/src/golang.org/x/tools/go/packages/packages.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+95 -> /home/daniel/go/src/golang.org/x/tools/go/packages/visit.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+96 -> /home/daniel/go/src/golang.org/x/tools/go/buildutil/allpackages.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+97 -> /home/daniel/go/src/golang.org/x/tools/go/buildutil/fakecontext.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+98 -> /home/daniel/go/src/golang.org/x/tools/go/buildutil/overlay.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+80 -> /home/daniel/go/src/golang.org/x/mod/semver/semver.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+79 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/visit.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+78 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+77 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/terminates.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+76 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/switch.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+75 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/stub.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+74 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/loops.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+73 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/irutil/load.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+72 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/write.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+71 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/wrappers.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+70 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+69 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/ssa.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+68 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/source.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+67 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/sanity.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+66 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/print.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+114 -> /home/daniel/go/src/golang.org/x/tools/internal/event/keys/standard.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+129 -> /home/daniel/go/src/honnef.co/go/tools/analysis/edit/edit.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+128 -> /home/daniel/go/src/golang.org/x/tools/internal/event/event.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+127 -> /home/daniel/go/src/golang.org/x/tools/internal/event/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+126 -> /home/daniel/go/src/golang.org/x/tools/go/internal/packagesdriver/sizes.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+125 -> /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/types.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+124 -> /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/errorcode_string.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+123 -> /home/daniel/go/src/golang.org/x/tools/internal/typesinternal/errorcode.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+122 -> /home/daniel/go/src/golang.org/x/tools/internal/gocommand/version.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+121 -> /home/daniel/go/src/golang.org/x/tools/internal/gocommand/vendor.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+120 -> /home/daniel/go/src/golang.org/x/tools/internal/gocommand/invoke.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+119 -> /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/ui.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+118 -> /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/methodsetcache.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+117 -> /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/map.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+116 -> /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/imports.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+115 -> /home/daniel/go/src/golang.org/x/tools/go/types/typeutil/callee.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+65 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/mode.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+113 -> /home/daniel/go/src/golang.org/x/tools/internal/event/keys/keys.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+112 -> /home/daniel/go/src/golang.org/x/xerrors/internal/internal.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+111 -> /home/daniel/go/src/honnef.co/go/tools/internal/sharedcheck/lint.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+110 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/newInterface11.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+109 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/iimport.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+108 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/iexport.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+107 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/gcimporter.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+106 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/exportdata.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+105 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/bimport.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+104 -> /home/daniel/go/src/golang.org/x/tools/go/internal/gcimporter/bexport.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+103 -> /home/daniel/go/src/golang.org/x/tools/go/internal/cgo/cgo_pkgconfig.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+102 -> /home/daniel/go/src/golang.org/x/tools/go/internal/cgo/cgo.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+101 -> /home/daniel/go/src/golang.org/x/tools/go/analysis/passes/inspect/inspect.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+100 -> /home/daniel/go/src/golang.org/x/tools/go/buildutil/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+99 -> /home/daniel/go/src/golang.org/x/tools/go/buildutil/tags.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+17 -> /home/daniel/go/src/honnef.co/go/tools/analysis/facts/token.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+32 -> /home/daniel/go/src/golang.org/x/tools/internal/lsp/fuzzy/input.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+31 -> /home/daniel/go/src/golang.org/x/tools/internal/event/core/fast.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+30 -> /home/daniel/go/src/golang.org/x/tools/internal/event/core/export.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+29 -> /home/daniel/go/src/golang.org/x/tools/internal/event/core/event.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+28 -> /home/daniel/go/src/golang.org/x/tools/go/gcexportdata/importer.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+27 -> /home/daniel/go/src/golang.org/x/tools/go/gcexportdata/gcexportdata.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+26 -> /home/daniel/go/src/honnef.co/go/tools/go/ast/astutil/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+25 -> /home/daniel/go/src/honnef.co/go/tools/internal/passes/buildir/buildir.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+24 -> /home/daniel/go/src/golang.org/x/sys/execabs/execabs.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+23 -> /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+22 -> /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/rewrite.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+21 -> /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/imports.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+20 -> /home/daniel/go/src/golang.org/x/tools/go/ast/astutil/enclosing.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+19 -> /home/daniel/go/src/honnef.co/go/tools/knowledge/deprecated.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+18 -> /home/daniel/go/src/honnef.co/go/tools/knowledge/arg.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+33 -> /home/daniel/go/src/golang.org/x/tools/internal/lsp/fuzzy/matcher.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+16 -> /home/daniel/go/src/honnef.co/go/tools/analysis/facts/purity.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+15 -> /home/daniel/go/src/honnef.co/go/tools/analysis/facts/generated.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+14 -> /home/daniel/go/src/honnef.co/go/tools/analysis/facts/directives.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+13 -> /home/daniel/go/src/honnef.co/go/tools/analysis/facts/deprecated.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+12 -> /home/daniel/go/src/golang.org/x/tools/internal/event/label/label.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+11 -> /home/daniel/go/src/honnef.co/go/tools/analysis/report/report.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+10 -> /home/daniel/go/src/honnef.co/go/tools/analysis/code/visit.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+9 -> /home/daniel/go/src/honnef.co/go/tools/analysis/code/code.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+8 -> /home/daniel/go/src/golang.org/x/tools/internal/analysisinternal/analysis.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+7 -> /home/daniel/go/src/honnef.co/go/tools/pattern/pattern.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+6 -> /home/daniel/go/src/honnef.co/go/tools/pattern/parser.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+5 -> /home/daniel/go/src/honnef.co/go/tools/pattern/match.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+4 -> /home/daniel/go/src/honnef.co/go/tools/pattern/lexer.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+3 -> /home/daniel/go/src/honnef.co/go/tools/pattern/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+2 -> /home/daniel/go/src/honnef.co/go/tools/pattern/convert.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+49 -> /home/daniel/go/src/golang.org/x/tools/go/ast/inspector/inspector.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+64 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/methods.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+63 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/lvalue.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+62 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/lift.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+61 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/identical.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+60 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/html.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+59 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/func.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+58 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/exits.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+57 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/emit.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+56 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/dom.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+55 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+54 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/create.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+53 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/const.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+52 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/builder.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+51 -> /home/daniel/go/src/honnef.co/go/tools/go/ir/blockopt.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+50 -> /home/daniel/go/src/golang.org/x/tools/go/ast/inspector/typeof.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+1 -> /home/daniel/go/src/golang.org/x/tools/internal/packagesinternal/packages.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+48 -> /home/daniel/go/src/honnef.co/go/tools/analysis/lint/lint.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+47 -> /home/daniel/go/src/golang.org/x/xerrors/wrap.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+46 -> /home/daniel/go/src/golang.org/x/xerrors/frame.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+45 -> /home/daniel/go/src/golang.org/x/xerrors/format.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+44 -> /home/daniel/go/src/golang.org/x/xerrors/fmt.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+43 -> /home/daniel/go/src/golang.org/x/xerrors/errors.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+42 -> /home/daniel/go/src/golang.org/x/xerrors/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+41 -> /home/daniel/go/src/golang.org/x/xerrors/adaptor.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+40 -> /home/daniel/go/src/golang.org/x/tools/go/analysis/validate.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+39 -> /home/daniel/go/src/golang.org/x/tools/go/analysis/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+38 -> /home/daniel/go/src/golang.org/x/tools/go/analysis/diagnostic.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+37 -> /home/daniel/go/src/golang.org/x/tools/go/analysis/analysis.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+36 -> /home/daniel/go/src/golang.org/x/tools/go/loader/util.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+35 -> /home/daniel/go/src/golang.org/x/tools/go/loader/loader.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7
+Translation unit:
+34 -> /home/daniel/go/src/golang.org/x/tools/go/loader/doc.go
+cov-emit-go invocation time (seconds): 1611858943
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 7

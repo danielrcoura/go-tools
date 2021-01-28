@@ -1,0 +1,11 @@
+
+{
+	"originalCommand" : 
+	[
+		"/home/daniel/Projects/cov-analysis-linux64-2020.09/bin/cov-emit-go",
+		"--dir=/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple/cov-int2",
+		"--build",
+		"./..."
+	],
+	"specificFiles" : []
+}

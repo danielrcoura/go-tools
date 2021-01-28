@@ -1,0 +1,1 @@
+/home/daniel/go/src/github.com/ufcg/danielrcoura/go-tools/simple
